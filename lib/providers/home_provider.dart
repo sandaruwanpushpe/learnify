@@ -9,7 +9,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class HomeProvider with ChangeNotifier {
+class HomeProvider extends ChangeNotifier {
   List<Map<String, dynamic>> courses = [];
   List<Map<String, dynamic>> categories = [];
   List<Map<String, dynamic>> pdfs = [];
