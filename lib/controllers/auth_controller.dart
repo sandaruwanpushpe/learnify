@@ -59,7 +59,6 @@ class AuthController {
       UserProvider().checkAuthState(context);
       CustomSuccessDialog.toast(context, "Welcome back!");
       Logger().i(credential.user!.uid);
-      CustomSuccessDialog.dismiss(context);
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         CustomErrorDialog.toast(context, "No user found for that email.");
@@ -77,16 +76,15 @@ class AuthController {
         CustomErrorDialog.toast(context, "Invalid Email");
         Logger().e('Invalid Email');
       } else if (e.code == 'operation-not-allowed') {
-        CustomErrorDialog.toast(context, "Invalid Email");
-        Logger().e('Invalid Email');
+        CustomErrorDialog.toast(context, "Operation not allowed.");
+        Logger().e('Operation not allowed.');
       }
-      CustomSuccessDialog.dismiss(context);
     } catch (e) {
-      CustomSuccessDialog.dismiss(context);
       CustomErrorDialog.toast(context, "Invalid details");
       Logger().e(e);
+    } finally {
+      CustomSuccessDialog.dismiss(context);
     }
-    CustomSuccessDialog.dismiss(context);
   }
 
   //signout user

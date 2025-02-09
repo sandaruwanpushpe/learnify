@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learnify/components/custom_text.dart';
 import 'package:learnify/controllers/auth_controller.dart';
+import 'package:learnify/screens/auth/signin_screen.dart';
 import 'package:learnify/screens/home/profile/enrolled_screen.dart';
 import 'package:learnify/utils/custom_navigator.dart';
 
@@ -125,6 +126,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               onPressed: () {
                                 Navigator.of(context).pop();
                                 AuthController().signOutUser(context);
+                                CustomNavigator.replasement(context, const SignInPage());
                               },
                             ),
                           ],
