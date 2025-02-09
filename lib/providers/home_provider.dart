@@ -77,7 +77,8 @@ class HomeProvider with ChangeNotifier {
     if (_currentUserUid == null) return; // Stop if user is still null
 
     final prefs = await SharedPreferences.getInstance();
-    final enrolledCourseIds = prefs.getStringList('enrolledCourses_$_currentUserUid') ?? [];
+    final enrolledCourseIds =
+        prefs.getStringList('enrolledCourses_$_currentUserUid') ?? [];
 
     if (courses.isEmpty) await loadCourses(); // Ensure courses are loaded
 
@@ -95,12 +96,14 @@ class HomeProvider with ChangeNotifier {
     if (_currentUserUid == null) return; // Stop if user is still null
 
     final prefs = await SharedPreferences.getInstance();
-    final enrolledCourseIds = prefs.getStringList('enrolledCourses_$_currentUserUid') ?? [];
+    final enrolledCourseIds =
+        prefs.getStringList('enrolledCourses_$_currentUserUid') ?? [];
 
     final courseId = course['id'].toString();
     if (!enrolledCourseIds.contains(courseId)) {
       enrolledCourseIds.add(courseId);
-      await prefs.setStringList('enrolledCourses_$_currentUserUid', enrolledCourseIds);
+      await prefs.setStringList(
+          'enrolledCourses_$_currentUserUid', enrolledCourseIds);
       enrolledCourses.add(course);
       notifyListeners();
     }

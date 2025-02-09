@@ -14,11 +14,11 @@ class CourseOverview extends StatefulWidget {
 }
 
 class _CourseOverviewState extends State<CourseOverview> {
-  bool _showPdfs = false;
+  bool _isEnrolled = false;
 
   @override
   Widget build(BuildContext context) {
-   final homeProvider= Provider.of<HomeProvider>(context, listen: false);
+    final homeProvider = Provider.of<HomeProvider>(context, listen: false);
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -96,18 +96,19 @@ class _CourseOverviewState extends State<CourseOverview> {
               ],
             ),
             const SizedBox(height: 16),
-            Center(
-              child: ElevatedButton(
-                onPressed: () async{
-                  await homeProvider.enrollCourse(widget.course);
-                  setState(() {
-                    _showPdfs = true;
-                  });
-                },
-                child: const Text('Enroll Now'),
+            if (!_isEnrolled)
+              Center(
+                child: ElevatedButton(
+                  onPressed: () async {
+                    setState(() {
+                      _isEnrolled = true;
+                    });
+                    await homeProvider.enrollCourse(widget.course);
+                  },
+                  child: const Text('Enroll Now'),
+                ),
               ),
-            ),
-            if (_showPdfs) ...[
+            if (_isEnrolled) ...[
               const Text(
                 'PDFs:',
                 style: TextStyle(
