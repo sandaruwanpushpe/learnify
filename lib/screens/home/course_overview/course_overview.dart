@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learnify/components/custom_text.dart';
 import 'package:learnify/providers/home_provider.dart';
+import 'package:learnify/screens/home/quiz/quiz_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:learnify/screens/home/pdf_viewer/pdf_viewer.dart';
 
@@ -144,6 +145,41 @@ class _CourseOverviewState extends State<CourseOverview> {
                             );
                           },
                         );
+                      },
+                    );
+                  },
+                ),
+              ),
+              const SizedBox(height: 16),
+              const Text(
+                'Quizzes:',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 8),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: widget.course['quizzes'].length,
+                  itemBuilder: (context, index) {
+                    final quiz = widget.course['quizzes'][index];
+                    return ListTile(
+                      title: Text(quiz['title']),
+                      onTap: () async {
+                        final score = await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => QuizScreen(quiz: quiz),
+                          ),
+                        );
+                        if (score != null) {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text('Your score: $score'),
+                            ),
+                          );
+                        }
                       },
                     );
                   },

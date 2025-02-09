@@ -9,7 +9,14 @@
     "duration": 6,
     "sessions": 12,
     "enrolled": false,
-    "id":1
+    "id": 1,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Advanced Engineering Concepts",
@@ -21,7 +28,14 @@
     "duration": 8,
     "sessions": 16,
     "enrolled": false,
-    "id":2
+    "id": 2,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Engineering Design",
@@ -33,7 +47,14 @@
     "duration": 5,
     "sessions": 10,
     "enrolled": false,
-    "id":3
+    "id": 3,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Engineering Materials",
@@ -45,7 +66,14 @@
     "duration": 7,
     "sessions": 14,
     "enrolled": false,
-    "id":4
+    "id": 4,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Introduction to Medical Science",
@@ -57,7 +85,14 @@
     "duration": 6,
     "sessions": 12,
     "enrolled": false,
-    "id":5
+    "id": 5,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Advanced Medical Techniques",
@@ -69,7 +104,14 @@
     "duration": 8,
     "sessions": 16,
     "enrolled": false,
-    "id":6
+    "id": 6,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Medical Research",
@@ -81,7 +123,14 @@
     "duration": 5,
     "sessions": 10,
     "enrolled": false,
-    "id":7
+    "id": 7,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Medical Ethics",
@@ -93,7 +142,14 @@
     "duration": 7,
     "sessions": 14,
     "enrolled": false,
-    "id":8
+    "id": 8,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Introduction to Accounting",
@@ -105,7 +161,14 @@
     "duration": 6,
     "sessions": 12,
     "enrolled": false,
-    "id":9
+    "id": 9,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Advanced Accounting",
@@ -117,7 +180,14 @@
     "duration": 8,
     "sessions": 16,
     "enrolled": false,
-    "id":10
+    "id": 10,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Accounting Principles",
@@ -129,7 +199,14 @@
     "duration": 5,
     "sessions": 10,
     "enrolled": false,
-    "id":11
+    "id": 11,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Financial Accounting",
@@ -141,7 +218,14 @@
     "duration": 7,
     "sessions": 14,
     "enrolled": false,
-    "id":12
+    "id": 12,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Introduction to Technology",
@@ -153,7 +237,14 @@
     "duration": 6,
     "sessions": 12,
     "enrolled": false,
-    "id":13
+    "id": 13,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Advanced Technology",
@@ -165,7 +256,14 @@
     "duration": 8,
     "sessions": 16,
     "enrolled": false,
-    "id":14
+    "id": 14,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Technology Innovations",
@@ -177,7 +275,14 @@
     "duration": 5,
     "sessions": 10,
     "enrolled": false,
-    "id":15
+    "id": 15,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   },
   {
     "title": "Technology Management",
@@ -189,6 +294,13 @@
     "duration": 7,
     "sessions": 14,
     "enrolled": false,
-    "id":16
+    "id": 16,
+    "quizzes": [
+      {"title": "Quiz 1"},
+      {"title": "Quiz 2"},
+      {"title": "Quiz 3"},
+      {"title": "Quiz 4"},
+      {"title": "Quiz 5"}
+    ]
   }
 ]

@@ -21,15 +21,7 @@ class EnrolledScreen extends StatelessWidget {
           fWaight: FontWeight.bold,
           fontSize: 26,
         ),
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back_ios,
-            color: Colors.white,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
+        automaticallyImplyLeading: false,
       ),
       body: homeProvider.enrolledCourses.isEmpty
           ? const Center(child: Text('No enrolled courses'))

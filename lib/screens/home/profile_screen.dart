@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:learnify/components/custom_text.dart';
 import 'package:learnify/controllers/auth_controller.dart';
 import 'package:learnify/screens/auth/signin_screen.dart';
-import 'package:learnify/screens/home/profile/enrolled_screen.dart';
 import 'package:learnify/utils/custom_navigator.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -49,15 +48,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 fWaight: FontWeight.bold,
                 fontSize: 24,
               ),
-            ),
-            const SizedBox(height: 10),
-            _buildMenuItem(
-              context,
-              icon: Icons.book_outlined,
-              title: 'Enrolled Courses',
-              onTap: () {
-                CustomNavigator.goto(context, const EnrolledScreen());
-              },
             ),
             const SizedBox(height: 10),
             _buildMenuItem(

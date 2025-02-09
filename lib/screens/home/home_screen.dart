@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learnify/components/custom_text.dart';
 import 'package:learnify/providers/home_provider.dart';
-import 'package:learnify/screens/home/course_overview.dart';
+import 'package:learnify/screens/home/course_overview/course_overview.dart';
 import 'package:learnify/utils/custom_navigator.dart';
 import 'package:provider/provider.dart';
 

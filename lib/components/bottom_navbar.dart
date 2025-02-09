@@ -3,6 +3,7 @@
 import 'package:crystal_navigation_bar/crystal_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:learnify/screens/home/home_screen.dart';
+import 'package:learnify/screens/home/enrolled_screen.dart';
 import 'package:learnify/screens/home/profile_screen.dart';
 
 class BottomNavbar extends StatefulWidget {
@@ -39,7 +40,7 @@ class _BottomNavBarState extends State<BottomNavbar> {
       case _SelectedTab.explore:
         return const HomeScreen();
       case _SelectedTab.save:
-        return const HomeScreen();
+        return const EnrolledScreen();
       case _SelectedTab.profile:
         return const ProfileScreen();
       default:
@@ -72,8 +73,8 @@ class _BottomNavBarState extends State<BottomNavbar> {
               selectedColor: Colors.teal,
             ),
             CrystalNavigationBarItem(
-              icon: Icons.bookmark,
-              unselectedIcon: Icons.bookmark,
+              icon: Icons.book_outlined,
+              unselectedIcon: Icons.book_outlined,
               selectedColor: Colors.teal,
             ),
             CrystalNavigationBarItem(
