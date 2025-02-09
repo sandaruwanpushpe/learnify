@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Introduction to Engineering",
+    "description": "Learn the basics of engineering.",
+    "instructor": "John Doe",
+    "thumbnail": "assets/images/engineering1.png",
+    "progress": 0.5,
+    "category": "Engineering",
+    "duration": 6,
+    "sessions": 12
+  },
+  {
+    "title": "Advanced Engineering Concepts",
+    "description": "Explore advanced topics in engineering.",
+    "instructor": "Jane Smith",
+    "thumbnail": "assets/images/engineering2.png",
+    "progress": 0.2,
+    "category": "Engineering",
+    "duration": 8,
+    "sessions": 16
+  },
+  {
+    "title": "Engineering Design",
+    "description": "Learn about engineering design principles.",
+    "instructor": "Alice Johnson",
+    "thumbnail": "assets/images/engineering3.png",
+    "progress": 0.7,
+    "category": "Engineering",
+    "duration": 5,
+    "sessions": 10
+  },
+  {
+    "title": "Engineering Materials",
+    "description": "Study the materials used in engineering.",
+    "instructor": "Bob Brown",
+    "thumbnail": "assets/images/engineering4.png",
+    "progress": 0.3,
+    "category": "Engineering",
+    "duration": 7,
+    "sessions": 14
+  },
+  {
+    "title": "Introduction to Medical Science",
+    "description": "Learn the basics of medical science.",
+    "instructor": "Charlie Davis",
+    "thumbnail": "assets/images/medical1.png",
+    "progress": 0.6,
+    "category": "Medical",
+    "duration": 6,
+    "sessions": 12
+  },
+  {
+    "title": "Advanced Medical Techniques",
+    "description": "Explore advanced medical techniques.",
+    "instructor": "David Evans",
+    "thumbnail": "assets/images/medical2.png",
+    "progress": 0.4,
+    "category": "Medical",
+    "duration": 8,
+    "sessions": 16
+  },
+  {
+    "title": "Medical Research",
+    "description": "Learn about medical research methods.",
+    "instructor": "Eve Foster",
+    "thumbnail": "assets/images/medical3.png",
+    "progress": 0.8,
+    "category": "Medical",
+    "duration": 5,
+    "sessions": 10
+  },
+  {
+    "title": "Medical Ethics",
+    "description": "Study the ethics in medical practice.",
+    "instructor": "Frank Green",
+    "thumbnail": "assets/images/medical4.png",
+    "progress": 0.1,
+    "category": "Medical",
+    "duration": 7,
+    "sessions": 14
+  },
+  {
+    "title": "Introduction to Accounting",
+    "description": "Learn the basics of accounting.",
+    "instructor": "Grace Harris",
+    "thumbnail": "assets/images/accounting1.png",
+    "progress": 0.9,
+    "category": "Accounting",
+    "duration": 6,
+    "sessions": 12
+  },
+  {
+    "title": "Advanced Accounting",
+    "description": "Explore advanced accounting topics.",
+    "instructor": "Henry Jackson",
+    "thumbnail": "assets/images/accounting2.png",
+    "progress": 0.0,
+    "category": "Accounting",
+    "duration": 8,
+    "sessions": 16
+  },
+  {
+    "title": "Accounting Principles",
+    "description": "Learn about accounting principles.",
+    "instructor": "Ivy Johnson",
+    "thumbnail": "assets/images/accounting3.png",
+    "progress": 0.5,
+    "category": "Accounting",
+    "duration": 5,
+    "sessions": 10
+  },
+  {
+    "title": "Financial Accounting",
+    "description": "Study financial accounting methods.",
+    "instructor": "Jack Brown",
+    "thumbnail": "assets/images/accounting4.png",
+    "progress": 0.3,
+    "category": "Accounting",
+    "duration": 7,
+    "sessions": 14
+  },
+  {
+    "title": "Introduction to Technology",
+    "description": "Learn the basics of technology.",
+    "instructor": "Karen Davis",
+    "thumbnail": "assets/images/technology1.png",
+    "progress": 0.6,
+    "category": "Technology",
+    "duration": 6,
+    "sessions": 12
+  },
+  {
+    "title": "Advanced Technology",
+    "description": "Explore advanced technology topics.",
+    "instructor": "Larry Evans",
+    "thumbnail": "assets/images/technology2.png",
+    "progress": 0.4,
+    "category": "Technology",
+    "duration": 8,
+    "sessions": 16
+  },
+  {
+    "title": "Technology Innovations",
+    "description": "Learn about the latest technology innovations.",
+    "instructor": "Megan Foster",
+    "thumbnail": "assets/images/technology3.png",
+    "progress": 0.8,
+    "category": "Technology",
+    "duration": 5,
+    "sessions": 10
+  },
+  {
+    "title": "Technology Management",
+    "description": "Study technology management principles.",
+    "instructor": "Nathan Green",
+    "thumbnail": "assets/images/technology4.png",
+    "progress": 0.1,
+    "category": "Technology",
+    "duration": 7,
+    "sessions": 14
+  }
+]

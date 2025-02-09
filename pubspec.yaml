@@ -1,0 +1,71 @@
+name: learnify
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  fluttertoast: ^8.2.11
+  flutter_spinkit: ^5.2.1
+  firebase_core: ^3.11.0
+  firebase_auth: ^5.4.2
+  logger: ^2.5.0
+  google_fonts: ^6.2.1
+  crystal_navigation_bar: ^1.0.2
+  flutter_pdfview: ^1.4.0
+  shared_preferences: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    #Icons
+    - assets/icon/splash.png
+    - assets/icon/profileImage.png
+
+    #Images
+    - assets/images/engineering1.png
+    - assets/images/engineering2.png
+    - assets/images/engineering3.png
+    - assets/images/engineering4.png
+    - assets/images/medical1.png
+    - assets/images/medical2.png
+    - assets/images/medical3.png
+    - assets/images/medical4.png
+    - assets/images/accounting1.png
+    - assets/images/accounting2.png
+    - assets/images/accounting3.png
+    - assets/images/accounting4.png
+    - assets/images/technology1.png
+    - assets/images/technology2.png
+    - assets/images/technology3.png
+    - assets/images/technology4.png
+
+    #json
+    - assets/courses.json
+    - assets/pdf.json
+
+    # PDFs
+    - assets/pdf/pdf1.pdf
+    - assets/pdf/pdf2.pdf
+
+  
+
+

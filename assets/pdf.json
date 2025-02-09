@@ -1,0 +1,82 @@
+[
+  {
+    "category": "Engineering",
+    "title": "Session 01",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Engineering",
+    "title": "Session 02",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Engineering",
+    "title": "Session 03",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Engineering",
+    "title": "Session 04",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Medical",
+    "title": "Session 01",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Medical",
+    "title": "Session 02",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Medical",
+    "title": "Session 03",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Medical",
+    "title": "Session 04",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Accounting",
+    "title": "Session 01",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Accounting",
+    "title": "Session 02",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Accounting",
+    "title": "Session 03",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Accounting",
+    "title": "Session 04",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Technology",
+    "title": "Session 01",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Technology",
+    "title": "Session 02",
+    "file": "assets/pdf/pdf2.pdf"
+  },
+  {
+    "category": "Technology",
+    "title": "Session 03",
+    "file": "assets/pdf/pdf1.pdf"
+  },
+  {
+    "category": "Technology",
+    "title": "Session 04",
+    "file": "assets/pdf/pdf2.pdf"
+  }
+]
