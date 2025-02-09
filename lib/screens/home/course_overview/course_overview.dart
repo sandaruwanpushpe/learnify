@@ -174,6 +174,7 @@ class _CourseOverviewState extends State<CourseOverview> {
                           ),
                         );
                         if (score != null) {
+                          // ignore: use_build_context_synchronously
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
                               content: Text('Your score: $score'),

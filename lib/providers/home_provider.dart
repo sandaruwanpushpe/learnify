@@ -11,6 +11,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeProvider with ChangeNotifier {
   List<Map<String, dynamic>> courses = [];
+  List<Map<String, dynamic>> categories = [];
   List<Map<String, dynamic>> pdfs = [];
   List<Map<String, dynamic>> enrolledCourses = [];
   String? _currentUserUid;
@@ -22,6 +23,7 @@ class HomeProvider with ChangeNotifier {
   Future<void> _initialize() async {
     await _fetchCurrentUserUid();
     await loadCourses();
+    await loadCategories();
     await loadPdfs();
     await loadEnrolledCourses();
   }
@@ -35,6 +37,13 @@ class HomeProvider with ChangeNotifier {
     final String response = await rootBundle.loadString('assets/courses.json');
     final data = json.decode(response) as List;
     courses = data.map((course) => course as Map<String, dynamic>).toList();
+    notifyListeners();
+  }
+
+  Future<void> loadCategories() async {
+    final String response = await rootBundle.loadString('assets/category.json');
+    final data = json.decode(response) as Map<String, dynamic>;
+    categories = List<Map<String, dynamic>>.from(data['categories']);
     notifyListeners();
   }
 

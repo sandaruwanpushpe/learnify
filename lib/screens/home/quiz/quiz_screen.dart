@@ -58,7 +58,7 @@ class _QuizScreenState extends State<QuizScreen> {
                           onPressed: () => _answerQuestion(answer),
                           child: Text(answer),
                         ))
-                    .toList(),
+                    ,
               ],
             )
           : Center(

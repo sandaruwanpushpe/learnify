@@ -1,0 +1,20 @@
+{
+    "categories": [
+        {
+            "name": "Engineering",
+            "thumbnail": "assets/images/engineering1.png"
+        },
+        {
+            "name": "Medical",
+            "thumbnail": "assets/images/medical1.png"
+        },
+        {
+            "name": "Accounting",
+            "thumbnail": "assets/images/accounting3.png"
+        },
+        {
+            "name": "Technology",
+            "thumbnail": "assets/images/technology2.png"
+        }
+    ]
+}

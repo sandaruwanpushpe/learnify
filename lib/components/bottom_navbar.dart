@@ -2,6 +2,7 @@
 
 import 'package:crystal_navigation_bar/crystal_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:learnify/screens/home/category_screen.dart';
 import 'package:learnify/screens/home/home_screen.dart';
 import 'package:learnify/screens/home/enrolled_screen.dart';
 import 'package:learnify/screens/home/profile_screen.dart';
@@ -38,7 +39,7 @@ class _BottomNavBarState extends State<BottomNavbar> {
       case _SelectedTab.home:
         return const HomeScreen();
       case _SelectedTab.explore:
-        return const HomeScreen();
+        return const CategoryScreen();
       case _SelectedTab.save:
         return const EnrolledScreen();
       case _SelectedTab.profile:
