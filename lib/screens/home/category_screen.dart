@@ -27,8 +27,8 @@ class _CategoryScreenState extends State<CategoryScreen> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: FutureBuilder(
-          future:
-              Provider.of<HomeProvider>(context, listen: false).loadCategories(),
+          future: Provider.of<HomeProvider>(context, listen: false)
+              .loadCategories(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const Center(child: CircularProgressIndicator());
@@ -38,7 +38,8 @@ class _CategoryScreenState extends State<CategoryScreen> {
               return Consumer<HomeProvider>(
                 builder: (context, homeProvider, child) {
                   return GridView.builder(
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                       childAspectRatio: 3 / 2,
                       crossAxisSpacing: 10,

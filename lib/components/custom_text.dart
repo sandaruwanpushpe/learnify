@@ -24,7 +24,6 @@ class RalewayText extends StatefulWidget {
 }
 
 class _RalewayTextState extends State<RalewayText> {
-
   @override
   Widget build(BuildContext context) {
     return Column(

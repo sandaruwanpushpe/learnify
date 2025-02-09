@@ -57,8 +57,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     .map((answer) => ElevatedButton(
                           onPressed: () => _answerQuestion(answer),
                           child: Text(answer),
-                        ))
-                    ,
+                        )),
               ],
             )
           : Center(

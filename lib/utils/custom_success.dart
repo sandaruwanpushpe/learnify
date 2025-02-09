@@ -9,7 +9,8 @@ class CustomSuccessDialog {
     // Show the dialog
     showDialog(
       context: context,
-      barrierDismissible: false, // Prevents dismissing the dialog by tapping outside
+      barrierDismissible:
+          false, // Prevents dismissing the dialog by tapping outside
       builder: (context) {
         return const Center(
           child: SpinKitThreeInOut(

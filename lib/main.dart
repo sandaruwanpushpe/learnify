@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -38,7 +37,7 @@ class MyApp extends StatelessWidget {
       title: 'Learnify',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff006D3F)),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.transparent),
         useMaterial3: true,
       ),
       home: const SplashScreen(),

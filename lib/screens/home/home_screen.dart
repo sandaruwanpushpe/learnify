@@ -85,11 +85,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           return GestureDetector(
                             onTap: () {
                               CustomNavigator.goto(
-                                context,CourseOverview(course: course),
+                                context,
+                                CourseOverview(course: course),
                               );
                             },
                             child: Card(
-                              margin: const EdgeInsets.symmetric(horizontal: 8.0),
+                              margin:
+                                  const EdgeInsets.symmetric(horizontal: 8.0),
                               color: Colors.teal[50],
                               child: SizedBox(
                                 width: 170, // Adjust width as needed
@@ -132,8 +134,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                     Padding(
                                       padding: const EdgeInsets.symmetric(
                                           horizontal: 8.0),
-                                      child:
-                                          Text('Sessions: ${course['sessions']}'),
+                                      child: Text(
+                                          'Sessions: ${course['sessions']}'),
                                     ),
                                     const Spacer(),
                                     Padding(

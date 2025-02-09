@@ -100,6 +100,5 @@ class AuthController {
     }
     CustomSuccessDialog.dismiss(context);
     CustomSuccessDialog.toast(context, "Sign out successfully!");
-    
   }
 }

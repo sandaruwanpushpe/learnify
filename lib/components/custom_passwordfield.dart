@@ -42,8 +42,12 @@ class _CustomPasswordState extends State<CustomPassword> {
           border: const OutlineInputBorder(
               borderRadius: BorderRadius.all(Radius.circular(10)),
               borderSide: BorderSide.none),
-          label: Text(widget.labelName, style: GoogleFonts.raleway(color: Colors.grey)),
-          prefixIcon: Icon(widget.pIcon,color: Colors.grey,),
+          label: Text(widget.labelName,
+              style: GoogleFonts.raleway(color: Colors.grey)),
+          prefixIcon: Icon(
+            widget.pIcon,
+            color: Colors.grey,
+          ),
           suffixIcon: widget.isPassword == true
               ? GestureDetector(
                   onTap: () {

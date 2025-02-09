@@ -42,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                 ],
               )),
-           const Align(
+          const Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
               padding: EdgeInsets.all(16.0),
@@ -69,7 +69,7 @@ class _SplashScreenState extends State<SplashScreen> {
         CustomNavigator.replasement(context, const SignInPage());
       } else {
         Logger().i('User is signed in!');
-        CustomNavigator.replasement(context,  BottomNavbar());
+        CustomNavigator.replasement(context, BottomNavbar());
       }
     });
   }

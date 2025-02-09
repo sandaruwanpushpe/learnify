@@ -9,7 +9,7 @@ import 'package:learnify/screens/home/profile_screen.dart';
 
 class BottomNavbar extends StatefulWidget {
   String? choose;
-   BottomNavbar({super.key,this.choose});
+  BottomNavbar({super.key, this.choose});
 
   @override
   State<BottomNavbar> createState() => _BottomNavBarState();
@@ -22,8 +22,8 @@ class _BottomNavBarState extends State<BottomNavbar> {
 
   @override
   void initState() {
-    if(widget.choose=="explore"){
-      _selectedTab=_SelectedTab.explore;
+    if (widget.choose == "explore") {
+      _selectedTab = _SelectedTab.explore;
     }
     super.initState();
   }
@@ -57,7 +57,6 @@ class _BottomNavBarState extends State<BottomNavbar> {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.only(bottom: 10),
         child: CrystalNavigationBar(
-          
           currentIndex: _SelectedTab.values.indexOf(_selectedTab),
           unselectedItemColor: Colors.white70,
           backgroundColor: Colors.black.withOpacity(0.2),

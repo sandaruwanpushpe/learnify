@@ -116,7 +116,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               onPressed: () {
                                 Navigator.of(context).pop();
                                 AuthController().signOutUser(context);
-                                CustomNavigator.replasement(context, const SignInPage());
+                                CustomNavigator.replasement(
+                                    context, const SignInPage());
                               },
                             ),
                           ],

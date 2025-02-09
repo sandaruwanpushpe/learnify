@@ -6,7 +6,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class UserProvider extends ChangeNotifier {
-
   //check user has signed in or signed out
   Future<void> checkAuthState(context) async {
     FirebaseAuth.instance.authStateChanges().listen((User? user) async {
